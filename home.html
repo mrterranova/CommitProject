@@ -6,20 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <div class="jumbotron">
-            <div class="container">
-              <h1 class="display-4" style="text-align: center;">Commit to Github</h1>
-              <p class="lead" style="text-align: center;">Add what you want to this repo. Images, gifs, css, text... (Please be respectful). This is a free for all to learn how to commit on github.</p>
-              <br>
+      <div class="jumbotron">
+        <div class="container">
+          <h1 class="display-4" style="text-align: center;">Commit to Github</h1>
+          <p class="lead" style="text-align: center;">Add what you want to this repo. Images, gifs, css, text... (Please be respectful). This is a free for all to learn how to commit on github.</p>
+          <br>
               <h3 style="text-align: center;">GIT HUB INSTRUCTIONS</h3>
               <div class="instructions">
-              <p>//this creates a new branch for you to use. Remember to name your branch something you will remember</p>
+                <p>//this creates a new branch for you to use. Remember to name your branch something you will remember</p>
               <p>>git checkout -b your_branch_name</p>
               <p>//this means add everything to your branch</p>
               <p>>git add .</p>
@@ -37,9 +34,28 @@
               <p>Now go on the github repo located here: https://github.com/mrterranova/CommitProject</p>
               <p>Click new pull request under <>Code</p>
               <p>Since this repo has no checks on it, you can continue to commit your branch.</p>
+              <br><br>
+              <h3 class="text-center font-weight-bold">Working with Git and .ssh keys</h3>
+              <br><br>
+              <p>If you try to clone or commit you may get an error like this.</p>
+              <pre>
+              <code>
+                <span>The authenticity of host 'github.com (192.30.252.129)' can't be established.</span>
+                <span>RSA key fingerprint is 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48.</span>
+                <span>Are you sure you want to continue connecting (yes/no)?</span> 
+                <span>The authenticity of host 'github.com (192.30.252.128)' can't be established.</span>
+                <span>RSA key fingerprint is 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48.</span>
+                <span>Are you sure you want to continue connecting (yes/no)? </span>
+              </code>
+              </pre>
+              <p>This means that you either don't have .ssh keys or the keys you have are wrong.</p>
             </div>
             </div>
           </div>
     </div>
-</body>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
 </html>
